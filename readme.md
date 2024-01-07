@@ -1,10 +1,9 @@
 # **Exploring the Capabilities of a Simple MLP for Natural Gas Density Estimation**
+---
 Made by Hardo for **PACMANN Deep Learning Final Project**
 
 This repository contains information about experiment of predicting Natural Gas' density using simple MLP ANN
-
----
-
+  
 
 ## Dataset Information
 ---
@@ -32,7 +31,8 @@ Note: the data was manually extracted from the paper (you can check the data [on
 |---|---|---|---|
 | Our MLP Model | 1.759634 | 0.726616 | 0.999589 |
 | Linear Regression | 20.897857 | 9.717687 | 0.941997 |
-| Peng-Robinson EoS (with DWSIM) | 2.228784 | 0.717293 | 0.999322 |
+| Peng-Robinson EoS (with DWSIM) | 2.228784 | 0.717293 | 0.999322 |  
+
 In conclusion, we have developed a simple MLP model that can predict the density of synthetic natural gas with high accuracy and speed. While the model's performance is still below the results reported in the referenced paper, it is a promising tool for density prediction. However, the model is sensitive to gas composition changes outside of the training set, which may limit its applicability. Future work includes conducting further training with a more diverse dataset and experimenting with different MLP architectures and optimization techniques to improve the model's performance and generalizability. Overall, our simple MLP model provides a fast and accurate alternative to traditional EoS calculation methods for density prediction.
 
 
@@ -61,4 +61,4 @@ _Needed to run Streamlit_
 3. Predicted density will shown in the bottom
 
 ## Full report
-For full analysis report, you can check out (this Medium's article)[https://medium.com]
+For full analysis report, you can check out [this Medium's article](https://medium.com/@haranobuhardo/exploring-the-capabilities-of-a-simple-mlp-for-natural-gas-density-estimation-ce4af2fdcb8e)
